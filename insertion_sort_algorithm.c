@@ -5,16 +5,13 @@ int main()
     int key,l,s,c;
     int array[50];
     
-    
-
     printf("kucukten buyuge siralanmasini istediginiz sayi miktarini giriniz.\n");
     scanf("%d",&l);
     
     for ( c =0; c< l ; c++)
     {
         printf("%d. sayiyi giriniz;  ",1+c);
-        scanf("%d",&array[c]);
-        
+        scanf("%d",&array[c]);    
     }
 
     for (int i=1 ; i<l ; i++ )
